@@ -1,0 +1,48 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    top: 0;
+    background: darkslategray;
+    color: white;
+    display: flex;
+    box-shadow: 0px 0px 10px -3px black;
+}
+
+.logo {
+    /* background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 5rem;
+    cursor: pointer;
+    width: 7rem;
+    height: 2rem; */
+}
+
+.header-nav {
+    display: flex;
+    width: 75%;
+}
+
+.header-nav div{
+    justify-content: center;
+    padding: 0.3rem;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+}
+
+.search-bar {
+    float: right;
+}
